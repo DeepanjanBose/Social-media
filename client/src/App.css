@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+
+a {
+  color: black !important;
+}
+
+/********signin signup*******/
+.brand-logo,
+h2 {
+  font-family: "Merienda One", cursive;
+}
+.mycard {
+  margin-top: 30px;
+}
+.card-container {
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.input-field input[type="text"]:focus,.input-field input[type="password"]:focus{
+  border-bottom: 1px solid #d32f2f !important;
+  box-shadow: 0 1px 0 0 #d32f2f !important;
+}
+.hover:hover {
+  color: #d32f2f !important;
+}
+
+/***toast signin signup**********/
+#toast-container {
+  min-width: 10%;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%) translateY(50%);
+}
+
+/************profile****************/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 30%;
+}
+/**************home*******************/
+.home-card{
+  max-width: 600px;
+  height: max-content;
+  margin: 25px auto;
+}
